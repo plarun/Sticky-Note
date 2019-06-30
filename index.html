@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stick Notes Here</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="../fontawesome-free-5.5.0-web/fontawesome-free-5.5.0-web/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-nav">
+        <div class="row">
+            <a href="#" class="logo">STICKY</a>
+            <button class="clear-btn btn btn-info" id="clear-btn">CLEAR ALL</button>
+        </div>
+    </nav>
+    <div class="whole-body">
+        <div class="top-body card">
+            <h3 class="about">CREATE YOUR NEW NOTE</h3>
+            <button class="new-btn btn btn-primary" id="new-btn">NEW</button>
+            <button class="save-btn btn btn-success" id="save-btn">SAVE</button>
+            <div class="secondary-btn">
+                <button class="update-btn btn btn-warning" id="update-btn"><i class="fas fa-edit"></i></button>
+                <button class="delete-btn btn btn-danger" id="delete-btn"><i class="fas fa-trash"></i></button>
+                <button class="back-btn btn btn-dark" id="back-btn"><i class="fas fa-chevron-circle-left"></i></button>
+            </div>
+            <div class="note-body">
+                <input type="text" name="title" id="title" placeholder="Title">
+                <textarea name="note" id="note" cols="30" rows="5" placeholder="Write something..."></textarea>
+            </div>
+            <div class="color-btn">
+                <button class="green-btn btn" id="green-btn"></button>
+                <button class="pink-btn btn" id="pink-btn"></button>
+                <button class="cyan-btn btn" id="cyan-btn"></button>
+            </div>
+        </div>
+        <div class="bottom-head">
+            <ul class="bottom-body list-group" id="bottom-body">
+            <!--Notes
+                <div class="note-item">
+                    <div class="head"></div>
+                    <div class="note-content"></div>
+                </div>
+            -->
+            </ul>
+        </div>
+    </div>
+    <!--Scripts-->
+    <script src="app.js"></script>
+    <script src="../bootstrap/jquery/jquery.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <script src="../fontawesome-free-5.5.0-web/fontawesome-free-5.5.0-web/js/all.min.js"></script> 
+</body>
+</html>

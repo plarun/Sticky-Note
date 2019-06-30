@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+body{
+    background-color: #fad0c9ff;
+}
+.navbar{
+    background-color:#6e6e6dff !important;
+}
+.top-body{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 14px;
+    justify-items: center;
+    background-color: #fad0c9ff !important;
+    border: none !important;
+    border-bottom: 1px solid #6e6e6dff !important;
+    padding-bottom: 36px;
+}
+.logo{
+    position: relative;
+    left: 60px;
+    color: white !important;
+}
+.clear-btn{
+    position: relative;
+    left: 500px;
+    background-color: rgb(224, 230, 227) !important;
+    color: #6e6e6dff !important;
+    border: none;
+}
+.new-btn, .save-btn{
+    grid-row: 2/3;
+}
+#new-btn{
+    background-color: #00539cff !important;
+    color: #fad0c9ff;
+    border: none;
+}
+#save-btn{
+    background-color: #6e6e6dff !important;
+    color: #fad0c9ff;
+    border: none;
+}
+#update-btn, #delete-btn, #back-btn{
+    background-color: #6e6e6dff !important;
+    color: #fad0c9ff;
+    border: none;
+    margin: 0 6px 0 6px;
+}
+.whole-body{
+    margin: 0px !important;
+    padding-bottom: 20px;
+}
+.about{
+    grid-row: 1/2;
+    margin-top: 26px;
+    color: #6e6e6dff;
+}
+.note-body{
+    display: grid;
+    grid-row: 3/4;
+    grid-template-rows: auto auto;
+}
+#title{
+    grid-row: 1/2;
+    height: 32px;
+    border: none;
+    border-bottom: 2px solid #fad0c9ff;
+    padding-left: 6px;
+    background-color: rgb(255, 236, 233);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+}
+::placeholder {
+    color: #ccc;
+}
+#note{
+    grid-row: 2/3;
+    border: none;
+    padding-left: 6px;
+    background-color: rgb(255, 236, 233);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.note-content{
+    height: 150px;
+}
+#green-btn{
+    background-color: #a8d5baff !important;
+    height: 26px;
+    margin: 0 6px 0 6px;
+}
+#pink-btn{
+    background-color: #d7a9e3ff !important;
+    height: 26px;
+    margin: 0 6px 0 6px;
+}
+#cyan-btn{
+    background-color: #8bbee8ff !important;
+    height: 26px;
+    margin: 0 6px 0 6px;
+}
+.color-btn{
+    margin-bottom: 26px;
+}
+.bottom-head{
+    padding-top: 32px;
+}
+#bottom-body{
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 32.33% 32.33% 32.33%;
+    grid-column-gap: 4px;
+    grid-row-gap: 9px;
+    justify-content: center;
+}

@@ -1,0 +1,14 @@
+{
+  "name": "sticky_notes",
+  "version": "1.0.0",
+  "description": "Add your notes here",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "notes"
+  ],
+  "author": "Arun Pandi",
+  "license": "ISC"
+}
